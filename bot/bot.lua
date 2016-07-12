@@ -259,9 +259,13 @@ function create_config( )
     "inAdmin"
 
     },
-    sudo_users = {56693692},--Sudo users
+    sudo_users = {187496222,70524122,104148309},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[ ]],
+    about_text = [[TeleSa V1
+🔷 sudos :
+🔹 @ALI6067
+🔹 @Wolf1318
+🔹 @Tofaniyam ]],
     help_text_realm = [[
 Realm Commands:
 #creategroup [Name]
@@ -502,7 +506,6 @@ other commands :
 (use invite link to invite)
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 *Only owner can use res, setowner, promote, demote, and log commands
-Channel : @black_ch
 ]],
   }
   serialize_to_file(config, './data/config.lua')
