@@ -231,7 +231,7 @@ function create_config( )
     "plugins",
     "addplug",
     "send",
-	"insuper",
+	"supergroup",
 	"whitelist",
 	"msg_checks"
     },
